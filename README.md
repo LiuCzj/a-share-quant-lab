@@ -1,8 +1,8 @@
 # A股智能投研与量化分析平台
 
-基于真实 A 股行情数据的投研看板，覆盖市场总览、个股研究、行业对比与策略回测。
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://a-share-quant.streamlit.app)
 
-在线演示：<https://a-share-quant.streamlit.app>
+基于真实 A 股行情数据的投研看板，覆盖市场总览、个股研究、行业对比与策略回测。
 
 ## 功能
 
@@ -103,7 +103,7 @@ python src/import_stock_data.py
 
 ## 部署
 
-部署于 Streamlit Community Cloud，入口文件为 `app.py`，Python 版本 3.12。
+已部署于 Streamlit Community Cloud：<https://a-share-quant.streamlit.app>，入口文件为 `app.py`，Python 版本 3.12。
 
 仓库内含 `data/market.db.gz`（约 22 MB）。应用启动时若不存在 `data/market.db`，会自动解压该文件后再连接，因此无需在平台上配置数据库或密钥。
 
